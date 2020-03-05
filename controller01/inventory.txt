@@ -1,0 +1,12 @@
+ansible01-anthony
+[webmin]
+ansible02-anthony
+[windows]
+mgmt01-anthony
+[windows:vars]
+ansible_user=anthony-adm@anthony.local
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=ntlm
+ansible_windrm_port=5986
+
