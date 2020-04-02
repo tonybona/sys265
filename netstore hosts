@@ -1,0 +1,9 @@
+Host Ceph01
+   Hostname Ceph01
+   User cephadm
+Host Ceph02
+   Hostname Ceph02
+   User cephadm
+Host CephMonitor
+   Hostname CephMonitor
+   User cephadm
